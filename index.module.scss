@@ -1,0 +1,38 @@
+.ele-page-skeleton {
+  width: 100%;
+  padding-top: 24px;
+  &-main {
+    width: 100%;
+    & > * {
+      padding: 6px 0;
+    }
+  }
+  &-statistics {
+    display: flex;
+    * {
+      margin-right: 5px;
+      background-color: #ffffff;
+      padding: 2px 5px;
+    }
+  }
+  &-filters {
+    & > * {
+      width: 200px;
+      margin: 0 6px;
+    }
+    &-rangepicker {
+      width: 360px;
+    }
+    &-button {
+      border-radius: 5px;
+      width: 120px;
+    }
+  }
+  &-button {
+    position: fixed;
+    right: 44px;
+    bottom: 24px;
+    width: 80px;
+    border-radius: 5px;
+  }
+}
